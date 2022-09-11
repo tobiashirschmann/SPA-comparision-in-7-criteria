@@ -1,4 +1,4 @@
-# m1_components-app
+# k1_components-app
 
 ## Project setup
 ```
