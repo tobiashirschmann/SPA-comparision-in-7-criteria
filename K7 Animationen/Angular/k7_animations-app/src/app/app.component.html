@@ -1,0 +1,17 @@
+<h1>{{this.count}} Artikel im Warenkorb</h1>
+<nav>
+    <div>
+      <ul>
+          <li><a routerLink="/orders-component"  
+            routerLinkActive="active" ariaCurrentWhenActive="page"> Meine Bestellungen </a></li>
+          <li><a routerLink="/account-component" 
+            routerLinkActive="active" ariaCurrentWhenActive="page"> Mein Konto </a></li>
+            <li><a routerLink="/recommendations-component" 
+              routerLinkActive="active" ariaCurrentWhenActive="page"> Empfehlungen </a></li>
+      </ul>
+  </div>
+</nav>
+
+<main role="main" [@fadeAnimation]="outlet.isActivated ? outlet.activatedRoute : ''">
+  <router-outlet #outlet="outlet"></router-outlet>
+</main>

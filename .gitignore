@@ -7,3 +7,11 @@
 /K1 Components/Angular/k1_components-app/.vscode
 /K2 Events/Angular/k2_events-app/.vscode
 /K3 Bedingtes Rendering/Angular/k3_bedingtesRendering-app/.vscode
+/.vs
+/K4 Routing und Navigation/Angular/k4_routingNavigation-app/.vscode
+/K5 Asynchroner Datenabruf/Backend/k5_asynchronerDatenAbruf-api/.vs/m5_asynchronerDatenAbruf-api
+/K5 Asynchroner Datenabruf/Backend/k5_asynchronerDatenAbruf-api/m5_asynchronerDatenAbruf-api/bin
+/K5 Asynchroner Datenabruf/Backend/k5_asynchronerDatenAbruf-api/m5_asynchronerDatenAbruf-api/obj
+/K5 Asynchroner Datenabruf/Angular/k5_asynchronerDatenabruf-app/.vscode
+/K6 Globale Zustandsverwaltung/Angular/k6_globaleZustandsverwaltung-app/.vscode
+/K7 Animationen/Angular/k7_animations-app/.vscode
