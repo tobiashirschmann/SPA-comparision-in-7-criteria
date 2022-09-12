@@ -1,0 +1,10 @@
+<div *ngIf="zeigeArtikel">
+    <p>Artikel: {{artikel}} </p>
+    <p>Menge: {{menge}} Stück</p>
+    <p>Preis: {{preis}}{{waehrung}}</p>
+    <p>Gesamt: {{getGesamtPreis()}}{{waehrung}}</p>
+
+    <button (click)="waehrungUmschalten()">
+        {{getWaehrungsanzeige()}}
+    </button>
+</div>
