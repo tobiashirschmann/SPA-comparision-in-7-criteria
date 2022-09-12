@@ -1,0 +1,22 @@
+<div *ngIf="error">
+    <h1>Empfehlungen</h1>
+     Error: {{error.message}}
+</div>
+<div *ngIf="isLoaded === false">
+    <h1>Meine Empfehlungen</h1>Bitte warten...  
+</div>
+<div *ngIf="isLoaded && error == null">
+    <h1>Empfehlungen</h1>
+    <ol>
+        <li *ngFor="let item of items" >
+            <p><strong>{{item.description}}</strong> </p>
+            <p>Bewertung: {{item.rating}}/5</p>
+            <p>Preis: {{item.price}}€</p>
+            <p>Versand: {{item.deliveryCost <= 0 ? 'Kostenlos' : item.deliveryCost+'€'}}</p>
+            <p>{{item.summary}}</p>
+            <button (click)="inDenWarenkorb()">
+                In den Warenkorb
+            </button>
+        </li>
+    </ol>
+</div>
